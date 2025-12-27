@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player UI</title>
+    <link rel="stylesheet" href="player.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+<div class="music-player">
+
+
+    <div class="cover">
+        <img src="office.jpg" alt="Album Cover">
+    </div>
+
+    
+    <div class="song-info">
+        <h3 class="song-title">Blinding Lights</h3>
+        <p class="artist-name">The Weeknd</p>
+    </div>
+
+    
+    <div class="controls">
+        <button><i class='bx bx-skip-previous'></i></button>
+        <button class="play"><i class='bx bx-play'></i></button>
+        <button><i class='bx bx-skip-next'></i></button>
+    </div>
+
+    <div class="progress-container">
+        <span>0:00</span>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        <span>3:45</span>
+    </div>
+
+    <div class="volume-container">
+        <i class='bx bx-volume-full'></i>
+        <input type="range" min="0" max="100" value="70">
+    </div>
+
+    <div class="playlist">
+        <h4>Top English Songs</h4>
+
+        <label class="song active">
+            <input type="checkbox">
+            <div class="song-details">
+                <span>Blinding Lights</span>
+                <small>The Weeknd</small>
+            </div>
+            <i class='bx bx-heart'></i>
+        </label>
+
+        <label class="song">
+            <input type="checkbox">
+            <div class="song-details">
+                <span>Perfect</span>
+                <small>Ed Sheeran</small>
+            </div>
+            <i class='bx bx-heart'></i>
+        </label>
+
+        <label class="song">
+            <input type="checkbox">
+            <div class="song-details">
+                <span>Love Story</span>
+                <small>Taylor Swift</small>
+            </div>
+            <i class='bx bx-heart'></i>
+        </label>
+
+        <label class="song">
+            <input type="checkbox">
+            <div class="song-details">
+                <span>Someone You Loved</span>
+                <small>Lewis Capaldi</small>
+            </div>
+            <i class='bx bx-heart'></i>
+        </label>
+
+    </div>
+
+</div>
+
+</body>
+</html>
